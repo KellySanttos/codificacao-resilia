@@ -1,0 +1,96 @@
+body {
+    background-color: rgba(0, 255, 255, 0.678);
+    background-color: #1d38d3;
+}
+
+#container {
+    position: fixed;
+    margin: 10px 820px;
+    top: 0;
+    right: 20;
+    max-width: 27rem;
+    width: 100%;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    padding: 25px 30px;
+    border-radius: 8px;
+    color: white;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#titulo1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 5px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+b, p {
+    display: flex;
+    justify-content: center;
+}
+
+#texto, #final {
+    height: 52px;
+}
+
+.textozero {
+    display: flex;
+    flex-direction: column;
+}
+
+.chave {
+    display: flex;
+    justify-content: space-around;
+    margin-right: -50px;
+}
+
+#cifras {
+    width: 170px;
+    height: 35px;
+}
+
+#resultado {
+    display: flex;
+    flex-direction: column;
+}
+
+.botao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#cifrar, #decifrar {
+    width: 200px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#cifrar:hover{
+background: linear-gradient(-135deg, #407BFF, #1618b1);
+}
+
+#decifrar:hover{
+    background: linear-gradient(-135deg, #407BFF, #1618b1);
+    }
+
+
+.full-container .image {
+    display: flex;
+    position: absolute;
+    font-size: 0;
+    height: 99%;
+    margin: 0px;
+}

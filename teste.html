@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="full-container">
+        <div class="image">
+            <img src="./assets/Code review-cuate.png" alt="">
+            </div>
+    <div id="container">
+        <form class="forms" name="formulario"></form>
+  <div class="titulo">
+    <h1>Codificador - Decodificador</h1>
+    <h3>Guarde suas mensagens com segurança.</h3>
+  </div>
+
+  <div class="textozero">
+    <h3 id="titulo1">Digite a mensagem:</h3>
+    <textarea id="texto" placeholder="Digite aqui sua mensagem"></textarea><br><br>
+
+    <div class="chave">
+        <select name="cifra" id="cifras">
+            <option value="0" id="semValor" disabled selected>Selecione</option>
+            <option value="1">Base64</option>
+            <option value="2">Cifra de César</option>
+        </select>
+    <input type="number" id="offset" value="2"><br><br>
+</div>
+</div>
+
+    <div class="botao" id="escolha">
+    <button id="cifrar">Codificar</button>
+    <button id="decifrar">Decodificar</button>
+</div>
+
+  <div id="resultado">
+    <h3 id="titulo2">Mensagem cifrada/decifrada:</h3>
+    <textarea id="final" placeholder="Mensagem cifrada/decifrada aparecerá aqui"></textarea><br>
+  </div>
+
+</div>
+  <script src="script.js"></script>
+</body>
+
+</html>
